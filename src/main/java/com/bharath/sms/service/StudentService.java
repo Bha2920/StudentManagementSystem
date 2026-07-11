@@ -10,11 +10,9 @@ public class StudentService {
 
     public void addStudent(Student student) {
         students.add(student);
-
+    }
     public List<Student> viewStudents() {
         return students;
-    }
-
     }
 }
 
